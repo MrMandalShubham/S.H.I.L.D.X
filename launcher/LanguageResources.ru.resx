@@ -1,0 +1,206 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="action_will_uninstall_launcher_wont_be_deleted" xml:space="preserve">
+    <value>Это действие удалит InfANTс этого компьютера. Launcher удалён не будет.</value>
+  </data>
+  <data name="an_another_is_running_only_one_allowed" xml:space="preserve">
+    <value>InfANT уже был запущен. Допускается работа только одной истанции.</value>
+  </data>
+  <data name="are_u_sure" xml:space="preserve">
+    <value>Вы уверены?</value>
+  </data>
+  <data name="cant_connect_to_internet" xml:space="preserve">
+    <value>Проблемы с доступом к интернету!</value>
+  </data>
+  <data name="cant_laucnch_busy_corrupt" xml:space="preserve">
+    <value>Ошибка при запуске InfANT! Файл повреждён или используется.</value>
+  </data>
+  <data name="cant_write_logs_no_access" xml:space="preserve">
+    <value>Не удалось записать историю сканирований на диск, возможно она уже открыта или у прогрммы нет доступа к данному пути.
+
+Перезагрузите компьютер и повторно запустите InfANT от имени администратора.</value>
+  </data>
+  <data name="corrupted_sign" xml:space="preserve">
+    <value>повреждена!</value>
+  </data>
+  <data name="done" xml:space="preserve">
+    <value>Готово!</value>
+  </data>
+  <data name="error" xml:space="preserve">
+    <value>Ошибка!</value>
+  </data>
+  <data name="fatal_error" xml:space="preserve">
+    <value>Критическая Ошибка!</value>
+  </data>
+  <data name="hope_u_had_good_experience_will_close_now" xml:space="preserve">
+    <value>Я надеюсь вам понравилось использовать наше програмное обеспечение. Сейчас Launcher будет закрыт.</value>
+  </data>
+  <data name="install" xml:space="preserve">
+    <value>Установить!</value>
+  </data>
+  <data name="installing_updating_finished" xml:space="preserve">
+    <value>Установка/обновление завершены.</value>
+  </data>
+  <data name="no" xml:space="preserve">
+    <value>нет</value>
+  </data>
+  <data name="not_installed" xml:space="preserve">
+    <value>отсутствует!</value>
+  </data>
+  <data name="no_internet_cant_check_updates" xml:space="preserve">
+    <value>Проблемы с доступом к интернету (или с нашим сервером), не удалось проверить обновления!</value>
+  </data>
+  <data name="no_internet_cant_update_install" xml:space="preserve">
+    <value>Проблемы с доступом к интернету (или с нашим сервером), не удалось установить InfANT / обновления!</value>
+  </data>
+  <data name="no_internet_changelog_wasnt_updated" xml:space="preserve">
+    <value>Проблемы с доступом к интернету (или с нашим сервером), не удалось обновить "Историю изменений"!</value>
+  </data>
+  <data name="no_internet_sign" xml:space="preserve">
+    <value>нет сети</value>
+  </data>
+  <data name="oops" xml:space="preserve">
+    <value>Упс.</value>
+  </data>
+  <data name="something_wrong_but_nothing_bad" xml:space="preserve">
+    <value>Что-то пошло не так, но ничего страшного не произошло. Попробуйте ещё раз.</value>
+  </data>
+  <data name="this_will_reset_settings_delete_logs_renew_files" xml:space="preserve">
+    <value>Это действие СБРОСИТ все ваши настройки и ОЧИСТИТ историю работы программы. Также некоторые файлы будут восстановлены.</value>
+  </data>
+  <data name="uninstall_finished_successfully" xml:space="preserve">
+    <value>Деинсталляция успешно завершена!</value>
+  </data>
+  <data name="update" xml:space="preserve">
+    <value>Обновить</value>
+  </data>
+  <data name="was_fixed_successfully" xml:space="preserve">
+    <value>InfANT был успешно восстановлён!</value>
+  </data>
+  <data name="yay" xml:space="preserve">
+    <value>Ура!</value>
+  </data>
+  <data name="yes_exc" xml:space="preserve">
+    <value>да!</value>
+  </data>
+  <data name="String1" xml:space="preserve">
+    <value />
+  </data>
+</root>
